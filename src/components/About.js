@@ -12,7 +12,7 @@ export const About = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Web Developer", "Web Designer", "UI/UX Designer" ];
+  const toRotate = [ "Full Stack Developer", "Web Designer", "UI/UX Designer" ];
   const period = 2000;
 
   useEffect(() => {
@@ -57,9 +57,9 @@ export const About = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Donna`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Full Stack Developer", "UI/UX Designer", "Data Analyst" ]'><span className="wrap">{text}</span></span></h1>
+                <h1>{`Hi! I'm Donna,`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Full Stack Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>
-                  Experienced Information Technology (IT) professional with a diverse background of experiences as an Application Developer, Business Analyst (BA), Technical Analyst, Database Administrator, client relationship manager and software trainer. Extensive technical knowledge and excellent interpersonal skills enable me to liaise well with all levels of an organization.  
+                  Experienced Information Technology (IT) professional with a diverse background of experiences as a Full Stack Developer, Web Designer, UI/UX Designer, Technical Analyst, client relationship manager and software trainer.  
                     </p>
                   <img className="profilePic" src={profilePic} alt="profile picture"  />
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
