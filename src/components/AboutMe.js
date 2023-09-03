@@ -4,7 +4,6 @@ import dbIcon from "../assets/images/dbIcon.jpg";
 import webDesignIcon from "../assets/images/webDesignIcon.jpg";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-// import colorSharp from "../assets/images/background4.jpg"
 
 export const AboutMe = () => {
   const responsive = {
@@ -61,7 +60,6 @@ export const AboutMe = () => {
                 </div>
             </div>
         </div>
-        {/* <img className="background-image-left" src={colorSharp} alt="Image" /> */}
     </section>
   )
 }
