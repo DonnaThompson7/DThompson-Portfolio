@@ -6,7 +6,7 @@ import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
-export const About = () => {
+export const Tagline = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState('');
@@ -49,18 +49,17 @@ export const About = () => {
   }
 
   return (
-    <section className="about" id="home">
+    <section className="tagline" id="home">
       <Container>
         <Row className="align-items-center">
           <Col xs={12} md={6} xl={7}>
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <span className="tagline">Welcome to my Portfolio</span>
+                <span className="welcome">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Donna,`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Full Stack Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>
-                  Experienced Information Technology (IT) professional with a diverse background of experiences as a Full Stack Developer, Web Designer, UI/UX Designer, Technical Analyst, client relationship manager and software trainer.  
-                    </p>
+                  <p>Leveraging today's technology for tomorrow's competitive advantage.</p>
+                  <p>Let's build it together!</p>
                   <img className="profilePic" src={profilePic} alt="profile picture"  />
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
