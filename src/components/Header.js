@@ -2,11 +2,10 @@ import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/images/insetImage1.png";
 import profilePic from "../assets/images/Donna_profilePic - resized.jpg";
-import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
-export const Tagline = () => {
+export const Header = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState('');

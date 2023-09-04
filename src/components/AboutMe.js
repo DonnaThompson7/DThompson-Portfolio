@@ -33,7 +33,7 @@ export const AboutMe = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>About Me</h2>
-                        <p>Experienced Information Technology (IT) professional with a diverse background of experiences as Software Engineer, Database Administrator, client relationship manager and software trainer. Extensive technical knowledge and excellent interpersonal skills enable me to liaise well with all levels of an organization. My capacity and passion for continual learning and a natural growth mindset drive business value.</p>
+                        <p>DONNA THOMPSON ==> Experienced Information Technology (IT) professional with a diverse background of experiences as Software Engineer, Database Administrator, client relationship manager and software trainer. Extensive technical knowledge and excellent interpersonal skills enable me to liaise well with all levels of an organization. My capacity and passion for continual learning and a natural growth mindset drive business value.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={codingIcon} alt="Image" />
