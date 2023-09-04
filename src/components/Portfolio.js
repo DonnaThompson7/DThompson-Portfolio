@@ -80,7 +80,7 @@ export const Portfolio = () => {
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     <Tab.Pane eventKey="first">
-                      <Row>
+                      <Row >
                         {
                           projects.map((project, index) => {
                             return (
@@ -106,7 +106,6 @@ export const Portfolio = () => {
           </Col>
         </Row>
       </Container>
-      {/* <img className="background-image-right" src={colorSharp2}></img> */}
     </section>
   )
 }

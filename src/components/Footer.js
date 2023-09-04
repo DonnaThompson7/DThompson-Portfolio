@@ -1,4 +1,3 @@
-import { Container, Row, Col } from "react-bootstrap";
 import logo from '../logo.svg';
 import LinkedInIcon from '../assets/images/LinkedInIcon.svg';
 import FacebookIcon from '../assets/images/FacebookIcon.svg';
@@ -9,8 +8,6 @@ import GitHubIcon from '../assets/images/github3.png';
 export const Footer = () => {
   return (
     <footer className="footer">
-      {/* <Container> */}
-        {/* <Row className="align-items-center"> */}
             <img src={logo} alt="Logo" />
             <div>
             <h2 >Donna Thompson</h2>
@@ -24,8 +21,6 @@ export const Footer = () => {
                 <a href="https://instagram.com/dlthompson7?igshid=OGQ5ZDc2ODk2ZA=="><img src={InstagramIcon} alt="Donna Thompson Instagram" /></a>
             </div>
             <p>Copyright 2023. All Rights Reserved</p>
-        {/* </Row> */}
-      {/* </Container> */}
     </footer>
   )
 }

@@ -2,7 +2,7 @@ import { Col } from "react-bootstrap";
 
 export const ProjectDetails = ({ title, description, imgUrl, deployedUrl, repoUrl }) => {
   return (
-    <Col size={12} sm={6} md={4}>
+    <Col xl={4} md={6} sm={12}>
       <div className="proj-imgbx">
         <img src={imgUrl} />
         <div className="proj-txtx">
