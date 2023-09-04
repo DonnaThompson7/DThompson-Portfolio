@@ -31,7 +31,6 @@ export const NavBar = () => {
     <Container>
       <Navbar.Brand href="#home"><img src={logo} alt="Logo" /></Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav"><span className="nabvar-toggler-icon"></span></Navbar.Toggle>
-      <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="me-auto">
           <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
           <Nav.Link href="#aboutMe" className={activeLink === 'aboutMe' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('aboutMe')}>About Me</Nav.Link>
@@ -47,7 +46,6 @@ export const NavBar = () => {
             <a href="https://instagram.com/dlthompson7?igshid=OGQ5ZDc2ODk2ZA=="><img src={InstagramIcon} alt="Donna Thompson Instagram" /></a>
           </div>
         </span>
-      </Navbar.Collapse>
     </Container>
   </Navbar>
   )

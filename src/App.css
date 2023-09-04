@@ -58,11 +58,11 @@ input:focus, textarea:focus, select:focus {
 }
 
 p.success {
-	color: green;
+	color: green !important;
 }
 
 p.danger {
-	color: red;
+	color: red !important;
 }
 
 /************ Navbar Css ************/
@@ -86,12 +86,11 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
   color: #fff !important;
   letter-spacing: 0.8px;
   padding: 0 25px;
-  font-size: 18px;
-  opacity: 0.75;
+  font-size: 22px;
 }
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
 nav.navbar .navbar-nav a.nav-link.navbar-link.active {
-    opacity: 1;
+    font-weight: 700;
 }
 span.navbar-text {
     display: flex;
@@ -217,7 +216,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Tagline Css ************/
 .tagline {
   margin-top: 0;
-  padding: 260px 0 100px 0;
+  padding: 160px 0 100px 0;
   background-image: url('./assets/images/background1.jpg');
   background-position: top center;
   background-size: cover;
@@ -229,8 +228,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 8px 10px;
   background: linear-gradient(90.21deg, #0cb9f8 -5.91%, #2a3ef7 111.58%);
   border: 1px solid rgba(255, 255, 255, 0.5);
-  font-size: 20px;
-  margin-bottom: 16px;
+  font-size: 24px;
+  margin-top: 10px;
+  margin-bottom: 36px;
   display: inline-block;
 }
 .tagline h1 {
@@ -243,7 +243,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .tagline p {
   color: #fff;
-  font-size: 18px;
+  font-size: 22px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
   width: 96%;
@@ -309,8 +309,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	font-size: 45px;
 	font-weight: 700;
 }
+.skill h5 {
+  text-decoration-line: underline;
+  text-decoration-color: #fff;
+  text-decoration-thickness: 3px;
+  font-weight: 700;
+}
+
 .skill p {
-    color: #dfdddd;
+    color: #fff;
     font-size: 18px;
     letter-spacing: 0.8px;
     line-height: 1.5em;
@@ -347,12 +354,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project {
   padding: 80px 0;
   position: relative;
-  /* background-color: black; */
   background-image: url('./assets/images/background13.jpg');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
-
 }
 .project h2 {
 	font-size: 45px;
@@ -360,7 +365,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
 }
 .project p {
-  color: #B8B8B8;
+  color: white;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
@@ -460,6 +465,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.8px;
   line-height: 1.1em;
 }
+.proj-txtx a {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+
+}
+
 .proj-txtx span {
   font-style: italic;
   font-weight: 400;
@@ -599,7 +612,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .footer p {
   font-weight: 400;
   font-size: 14px;
-  color: #B8B8B8;
+  color: #fff;
   letter-spacing: 0.5px;
   margin-top: 20px;
 }

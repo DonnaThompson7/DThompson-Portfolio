@@ -56,7 +56,7 @@ export const Header = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="welcome">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Donna,`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Full Stack Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
+                <h1>{`Hi! I'm Donna Thompson,`} <span className="txt-rotate" period="1000" data-rotate='[ "Full Stack Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>Leveraging today's technology for tomorrow's competitive advantage.</p>
                   <p>Let's build it together!</p>
                   <img className="profilePic" src={profilePic} alt="profile picture"  />

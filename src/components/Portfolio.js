@@ -17,31 +17,43 @@ export const Portfolio = () => {
       title: "Flavor Impersonator",
       description: "Flavor Impersonator is a user-friendly platform where food enthusiasts can share and discover their favorite recipes from popular restaurants or famous dishes. By leveraging the power of Node.js, Express.js, Handlebars.js, MySQL,Sequelize, Bootstrap and Animate.css, we will deliver a secure and efficient web application that meets the needs of recipe enthusiasts.",
       imgUrl: flavorImpersonatorImg,
+      deployedUrl: "https://flavor-impersonator-2e87d3d63575.herokuapp.com/",
+      repoUrl: "https://github.com/ltuckr/flavor-impersonator",
     },
     {
       title: "Movie App",
-      description: "This project is a dynamic web app that showcases popular movies. The app fetches movie data from an API and presents the top 10 trending movies in an appealing format. Users can easily navigate through movie options, view details such as ratings and titles, and even watch trailers with a simple click. The user can also search for films by title and view upcoming movies.",
+      description: "This project is a dynamic web app that showcases popular movies. Using server-side API's, the app fetches movie data from an API and presents the top 10 trending movies in an appealing format. Users can easily navigate through movie options, view details such as ratings and titles, and even watch trailers with a simple click. The user can also search for films by title and view upcoming movies.",
       imgUrl: movieAppImg,
+      deployedUrl: "https://Akemp24.github.io/Movie-app",
+      repoUrl: "https://github.com/Akemp24/Movie-app",
     },
     {
       title: "Tech Blog",
       description: "This app is a blog site about technical concepts, recent advancements, and new technologies. Developers can publish their articles, blog posts and comment on other developers’ posts, as well. ",
       imgUrl: techBlogImg,
+      deployedUrl: "https://donna-tech-blog-986d6280cfda.herokuapp.com/",
+      repoUrl: "https://github.com/DonnaThompson7/Tech-Blog",
     },
     {
-      title: "Weather App",
+      title: "Weather Dashboard",
       description: "Weather dashboard application that allows a user to view the current weather and 5-day forecast for multiple cities, using Server-Side APIs.",
       imgUrl: weatherAppImg,
+      deployedUrl: "https://donnathompson7.github.io/Weather-Dashboard",
+      repoUrl: "https://github.com/DonnaThompson7/Weather-Dashboard",
     },
     {
       title: "Work Day Scheduler",
       description: "Simple calendar application that allows a user to save events for each hour of the day for standard business hours: 8am - 5pm.",
       imgUrl: workDaySchedulerImg,
+      deployedUrl: "https://donnathompson7.github.io/Work-Day-Scheduler",
+      repoUrl: "https://github.com/DonnaThompson7/Work-Day-Scheduler",
     },
     {
       title: "Code Quiz",
       description: "Coding Quiz app tests the user's knowledge of Javascript basics. The app is timed and tracks high scores. Written in javascript, html and css",
       imgUrl: codeQuizImg,
+      deployedUrl: "https://donnathompson7.github.io/Code-quiz",
+      repoUrl: "https://github.com/DonnaThompson7/Code-quiz",
     },
   ];
 
@@ -82,10 +94,10 @@ export const Portfolio = () => {
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
-                      <p>More projects coming soon!</p>
+                      <h2>More projects coming soon!</h2>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p>More projects coming soon!</p>
+                      <h2>More projects coming soon!</h2>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>

@@ -7,8 +7,7 @@ import 'react-multi-carousel/lib/styles.css';
 
 export const AboutMe = () => {
   const responsive = {
-    superLargeDesktop: {
-      // the naming can be any, depends on you.
+    largestDesktop: {
       breakpoint: { max: 4000, min: 3000 },
       items: 5
     },
