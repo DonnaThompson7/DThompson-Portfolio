@@ -61,7 +61,6 @@ export const Tagline = () => {
                   <p>Leveraging today's technology for tomorrow's competitive advantage.</p>
                   <p>Let's build it together!</p>
                   <img className="profilePic" src={profilePic} alt="profile picture"  />
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
           </Col>
