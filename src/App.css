@@ -218,7 +218,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .tagline {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url('./assets/images/background11.jpg');
+  background-image: url('./assets/images/background1.jpg');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -296,7 +296,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: relative;
 }
 .skill-bx {
-  background-image: url('./assets/images/background8.jpg');
+  background-image: url('./assets/images/background9.jpg');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -348,7 +348,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 80px 0;
   position: relative;
   /* background-color: black; */
-  background-image: url('./assets/images/background6.jpg');
+  background-image: url('./assets/images/background13.jpg');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -426,10 +426,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 30px;
   overflow: hidden;
   margin-bottom: 24px;
+  box-shadow: 10px 20px 10px #1b0492, 20px 20px 15px#778cf5b8;
 }
 .proj-imgbx::before {
   content: "";
-  background: linear-gradient(90.21deg, #0e6cf9d8 -5.91%, #0d1ca1 111.58%);
+  background: linear-gradient(90.21deg, #0cb9f8 , rgba(9, 9, 171, 0.838) 111.58%);
   opacity: 0.85;
   position: absolute;
   width: 100%;
