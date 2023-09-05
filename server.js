@@ -28,17 +28,15 @@ contactEmail.verify((error) => {
 });
 
 router.post("/contact", (req, res) => {
-  const name = req.body.firstName + req.body.lastName;
+  const name = req.body.name;
   const email = req.body.email;
   const message = req.body.message;
-  const phone = req.body.phone;
   const mail = {
     from: "donnathompsonc@icloud.com",
     to: "donnathompsonc@icloud.com",
     subject: "Contact Form Submission - Portfolio",
     html: `<p>Name: ${name}</p>
            <p>Email: ${email}</p>
-           <p>Phone: ${phone}</p>
            <p>Message: ${message}</p>`,
   };
   console.log('Going to send: ', mail);
