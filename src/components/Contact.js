@@ -11,7 +11,7 @@ export const Contact = () => {
     message: ''
   }
   const [formDetails, setFormDetails] = useState(formInitialDetails);
-  const [buttonText, setButtonText] = useState('Send');
+  const [buttonText, setButtonText] = useState('Send Email');
   const [status, setStatus] = useState({});
 
   const onFormUpdate = (category, value) => {
@@ -39,7 +39,7 @@ export const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (formDetails.name && formDetails.email && formDetails.message) {
-          setButtonText("Sending...");
+          setButtonText("Sending email...");
           let response = await fetch("http://localhost:5000/contact", {
             method: "POST",
             headers: {
@@ -47,7 +47,7 @@ export const Contact = () => {
             },
             body: JSON.stringify(formDetails),
           });
-          setButtonText("Send");
+          setButtonText("Send Email");
           let result = await response.json();
           setFormDetails(formInitialDetails);
           if (result.code == 200) {
