@@ -1,7 +1,6 @@
 import './App.css';
-import logo from './logo.svg';
-import { NavBar } from './components/NavBar';
-import { Header } from "./components/Header";
+import { NavBar } from './components/HeaderNavBar';
+import { Hero } from "./components/Hero";
 import { AboutMe } from "./components/AboutMe";
 import { Portfolio } from "./components/Portfolio";
 import { Contact } from "./components/Contact";
@@ -12,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <NavBar />
-      <Header />
+      <Hero />
       <AboutMe />
       <Portfolio />
       <Contact />

@@ -74,7 +74,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
   2-hour tutorial by judygab: https://www.youtube.com/watch?v=hYv6BM2fWd8
 
-  Online documentation for React components, animation, nodemailer, svg files, bootstrap, css, and more.
+  Online documentation for React components and packages, animation, nodemailer, svg files, bootstrap, css, responsive sizing and more.
 
   ## **Contribute**
   If you would like to contribute to this app, please submit contributions to the email below.

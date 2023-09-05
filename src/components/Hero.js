@@ -1,11 +1,11 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/images/insetImage1.png";
+import heroImg from "../assets/images/insetImage1.png";
 import profilePic from "../assets/images/Donna_profilePic - resized.jpg";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
-export const Header = () => {
+export const Hero = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState('');
@@ -48,7 +48,7 @@ export const Header = () => {
   }
 
   return (
-    <section className="tagline" id="home">
+    <section className="hero" id="home">
       <Container>
         <Row className="align-items-center">
           <Col xs={12} md={6} xl={7}>
@@ -67,7 +67,7 @@ export const Header = () => {
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                  <img className="headerImg" src={headerImg} alt="Header Img"/>
+                  <img className="heroImg" src={heroImg} alt="Hero Img"/>
                 </div>}
             </TrackVisibility>
           </Col>

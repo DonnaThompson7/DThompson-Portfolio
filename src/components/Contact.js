@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import contactImg from "../assets/images/insetImage3.png";
-// import resumePDF from "../";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -94,8 +93,7 @@ export const Contact = () => {
         </Row>
       </Container>
       <div id="resume">
-        <p>View my resume: </p>
-        <a href="/Donna_Thompson_Resume.pdf" target='_blank' rel="noreferrer"> Click here to open PDF file</a>
+        <a href="/Donna_Thompson_Resume.pdf" target='_blank' rel="noreferrer">Click Here to View my Resume</a>
       </div>
 
     </section>

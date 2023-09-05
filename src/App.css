@@ -65,7 +65,7 @@ p.danger {
 	color: red !important;
 }
 
-/************ Navbar Css ************/
+/************ Header/Navbar Css ************/
 nav.navbar {
   padding: 18px 0;
   position: fixed;
@@ -87,11 +87,16 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
   letter-spacing: 0.8px;
   padding: 0 25px;
   font-size: 22px;
+  border-radius: 30px;
 }
-nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
-nav.navbar .navbar-nav a.nav-link.navbar-link.active {
+nav.navbar .navbar-nav a.nav-link.navbar-link:hover {
     font-weight: 700;
 }
+nav.navbar .navbar-nav a.nav-link.navbar-link.active {
+  font-weight: 700;
+  border: 2px solid skyblue;
+}
+
 span.navbar-text {
     display: flex;
     align-items: center;
@@ -213,16 +218,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	border-color: transparent;
 }
 
-/************ Tagline Css ************/
-.tagline {
+/************ Hero Css ************/
+.hero {
   margin-top: 0;
   padding: 160px 0 100px 0;
   background-image: url('./assets/images/background1.jpg');
-  background-position: top center;
+  background-position: 0px 175px;
   background-size: cover;
   background-repeat: no-repeat;
 }
-.tagline .welcome {
+.hero .welcome {
   font-weight: 700;
   letter-spacing: 0.8px;
   padding: 8px 10px;
@@ -232,8 +237,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-top: 10px;
   margin-bottom: 36px;
   display: inline-block;
+  border-radius: 10px;
+
 }
-.tagline h1 {
+.hero h1 {
   font-size: 65px;
   font-weight: 700;
   letter-spacing: 0.8px;
@@ -241,14 +248,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-bottom: 20px;
   display: block;
 }
-.tagline p {
+.hero p {
   color: #fff;
   font-size: 22px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
   width: 96%;
 }
-.tagline button {
+.hero button {
   color: #fff;
   font-weight: 700;
   font-size: 20px;
@@ -258,17 +265,19 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   /* display: flex; */
   align-items: center;
 }
-.tagline button svg {
+.hero button svg {
   font-size: 25px;
   margin-left: 10px;
   transition: 0.3s ease-in-out;
   line-height: 1;
 }
-.tagline button:hover svg {
+.hero button:hover svg {
   margin-left: 25px;
 }
-.headerImg {
+.heroImg {
   animation: updown 3s linear infinite;
+  border-radius: 10px;
+
 }
 @keyframes updown {
     0% {
@@ -288,6 +297,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 150px;
   height: 200px;
   animation: none;
+  border-radius: 10px;
 }
 
 /************ About Me Css ************/
@@ -335,6 +345,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .skill-slider .item img {
   width: 30%;
   margin: 0 auto 15px auto;
+  border-radius: 10px;
+
 }
 
 .skill-slider .item p {
@@ -428,7 +440,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .proj-imgbx {
   position: relative;
-  border-radius: 30px;
+  border-radius: 5px;
   overflow: hidden;
   margin-bottom: 24px;
   box-shadow: 10px 20px 10px #1b0492, 20px 20px 15px#778cf5b8;
@@ -600,8 +612,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-repeat: no-repeat;
   align-items: center;
   justify-content: space-evenly;
-
 }
+.footer-contact-info {
+  display: block;
+}
+.footer-contact-info a, h6 {
+  color: #fff;
+  font-size: 15px;
+}
+
 .footer a {
   width: 25%;
   height: auto;
