@@ -1,7 +1,7 @@
-import codingIcon from "../assets/images/codingIcon.jpg";
-import agileScrumIcon from "../assets/images/agileIcon.jpg";
-import dbIcon from "../assets/images/dbIcon.jpg";
-import webDesignIcon from "../assets/images/webDesignIcon.jpg";
+import codingIcon from "../../assets/images/codingIcon.jpg";
+import agileScrumIcon from "../../assets/images/agileIcon.jpg";
+import dbIcon from "../../assets/images/dbIcon.jpg";
+import webDesignIcon from "../../assets/images/webDesignIcon.jpg";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 

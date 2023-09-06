@@ -6,8 +6,7 @@ import FacebookIcon from '../assets/images/FacebookIcon.svg';
 import InstagramIcon from '../assets/images/InstagramIcon.svg';
 import GitHubIcon from '../assets/images/GitHub-Mark.png';
 
-export const NavBar = () => {
-  const [activeLink, setActiveLink] = useState("home");
+export const NavBar = ({ activeLink, onUpdateActiveLink }) => {
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
@@ -22,10 +21,6 @@ export const NavBar = () => {
     return () => window.removeEventListener("scroll", onScroll);
   }, [])
  
-  const onUpdateActiveLink = (value) => {
-    setActiveLink(value);
-  }
-
   return (
     <Navbar expand="lg" className={scrolled ? "scrolled": ""}>
     <Container>

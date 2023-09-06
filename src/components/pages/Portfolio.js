@@ -1,11 +1,11 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectDetails } from "./ProjectDetails";
-import flavorImpersonatorImg from "../assets/images/Flavor_Impersonator_multi_page.png";
-import movieAppImg from "../assets/images/Movie_app_landing_page.png";
-import techBlogImg from "../assets/images/tech_blog_multi_page.png";
-import weatherAppImg from "../assets/images/weather_dashboard_screenshot.jpeg";
-import workDaySchedulerImg from "../assets/images/work_day_scheduler_screenshot.png";
-import codeQuizImg from "../assets/images/Code_Quiz_multi_page.png";
+import flavorImpersonatorImg from "../../assets/images/Flavor_Impersonator_multi_page.png";
+import movieAppImg from "../../assets/images/Movie_app_landing_page.png";
+import techBlogImg from "../../assets/images/tech_blog_multi_page.png";
+import weatherAppImg from "../../assets/images/weather_dashboard_screenshot.jpeg";
+import workDaySchedulerImg from "../../assets/images/work_day_scheduler_screenshot.png";
+import codeQuizImg from "../../assets/images/Code_Quiz_multi_page.png";
 
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
