@@ -301,12 +301,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /************ About Me Css ************/
-.skill {
+.experience {
   padding: 0 0 50px 0;
   position: relative;
 }
-.skill-bx {
-  background-image: url('./assets/images/background9.jpg');
+.experience-bx {
+  background-image: url('./assets/images/background11.jpg');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -315,41 +315,41 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 60px 50px;
   margin-top: 120px;
 }
-.skill h2 {
+.experience h2 {
 	font-size: 45px;
 	font-weight: 700;
 }
-.skill h5 {
+.experience h5 {
   text-decoration-line: underline;
   text-decoration-color: #fff;
   text-decoration-thickness: 3px;
   font-weight: 700;
 }
 
-.skill p {
+.experience p {
     color: #fff;
     font-size: 18px;
     letter-spacing: 0.8px;
     line-height: 1.5em;
     margin: 14px 0 75px 0;
 }
-.skill-slider {
+.experience-slider {
   width: 80%;
   margin: 0 auto;
   position: relative;
 }
-.skill-slider .item {
+.experience-slider .item {
   margin: 0;
 }
 
-.skill-slider .item img {
+.experience-slider .item img {
   width: 30%;
   margin: 0 auto 15px auto;
   border-radius: 10px;
 
 }
 
-.skill-slider .item p {
+.experience-slider .item p {
   width: 50%;
   margin: 0 auto 15px auto;
 }
@@ -503,12 +503,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Contact Css ************/
 .contact {
-  background-image: url('./assets/images/background9.jpg');
+  background-image: url('./assets/images/background15.jpg');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
   padding: 100px 0 100px 0;
-  margin-top: 120px;
+  margin-top: 150px;
 }
 .contact img {
   width: 92%;
@@ -584,24 +584,84 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 20px;
   width: auto;
 }
+
+/************ Resume Css ************/
+.resume {
+  background-image: url('./assets/images/background15.jpg');
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px 0 100px 0;
+  margin-top: 150px;
+}
+.resume-welcome-box {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.resume h2 {
+	font-size: 45px;
+	font-weight: 700;
+  margin-bottom: 30px;
+}
+.resume-welcome {
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  padding: 8px 10px;
+  background: linear-gradient(90.21deg, #0cb9f8 -5.91%, #2a3ef7 111.58%);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  font-size: 24px;
+  margin-top: 10px;
+  margin-bottom: 36px;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.resumePic {
+  width: 40%;
+  height: auto;
+  animation: none;
+  border-radius: 10px;
+}
+
 #resume {
   margin: 30px 0 0 15%;
   display: flex;
   flex-direction: row;
   align-items: center;
-
-}
-#resume p {
-  margin-left: 15px;
-  font-size: 35px;
 }
 
 #resume a {
-  margin-left: 15px;
-  margin-bottom: 13px;
+  margin: 35px;
   font-size: 30px;
-  color: aqua
+  color: white
 }
+
+  .skillsGrid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    grid-auto-rows: auto;
+    height: auto;
+  }
+.skillsGrid img {
+  height: 75%;
+  width: 75%;
+}
+.skills{
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: 300px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+
+}
+
+
 
 /************ Footer Css ************/
 .footer {

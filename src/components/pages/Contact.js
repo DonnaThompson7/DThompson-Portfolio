@@ -36,30 +36,16 @@ export const Contact = () => {
     } 
   }
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
     if (formDetails.name && formDetails.email && formDetails.message) {
-          setButtonText("Sending email...");
-          let response = await fetch("http://localhost:5000/contact", {
-            method: "POST",
-            headers: {
-              "Content-Type": "application/json;charset=utf-8",
-            },
-            body: JSON.stringify(formDetails),
-          });
-          setButtonText("Send Email");
-          let result = await response.json();
-          setFormDetails(formInitialDetails);
-          if (result.code == 200) {
-            setStatus({ success: true, message: 'Message sent successfully'});
-          } else {
-              console.log(result);
-            setStatus({ success: false, message: 'Unable to send email, please try again later.'});
-          }
+        console.log("Placeholder for Sending email!");
+        setFormDetails(formInitialDetails);
+        setStatus({ success: true, message: 'Placeholder for: Email sent successfully!'});
     } else {
-      setStatus({ message: 'Required fields must be entered before sending email.'});
+      setStatus({ success: false, message: 'Required fields must be entered before sending email.'});
     }
-  };
+  }
 
   return (
     <section className="contact" id="contact">
@@ -102,10 +88,6 @@ export const Contact = () => {
           </Col>
         </Row>
       </Container>
-      <div id="resume">
-        <a href="/Donna_Thompson_Resume.pdf" target='_blank' rel="noreferrer">Click Here to View my Resume</a>
-      </div>
-
     </section>
   )
 }

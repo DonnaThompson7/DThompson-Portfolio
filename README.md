@@ -3,7 +3,7 @@
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## **Description**
-  This **React Portfolio** is a single-page application using the latest technologies. The portfolio allows a developer to share experience, projects, and resume while applying for jobs or working as a freelancer, and also to share work with other developers and collaborate on projects. The contact form allows users to send an email to the developer. The application is deployed to GitHub Pages.
+  This **React Portfolio** is a single-page application using the latest technologies. The portfolio allows a developer to share experience, projects, and resume while applying for jobs or working as a freelancer, and also to share work with other developers and collaborate on projects. The application is deployed to GitHub Pages.
 
   ## **Table of Contents:**
   * [Technology Used](#technology-used)
@@ -76,7 +76,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
   2-hour tutorial by judygab: https://www.youtube.com/watch?v=hYv6BM2fWd8
 
-  Online documentation for React components and packages, animation, nodemailer, svg files, bootstrap, css, responsive sizing and more.
+  Online documentation for React components and packages, animation, svg files, bootstrap, css, responsive sizing and more.
 
   ## **Contribute**
   If you would like to contribute to this app, please submit contributions to the email below.

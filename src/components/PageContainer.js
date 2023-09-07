@@ -4,6 +4,7 @@ import { Hero } from "./pages/Hero";
 import { AboutMe } from "./pages/AboutMe";
 import { Portfolio } from "./pages/Portfolio";
 import { Contact } from "./pages/Contact";
+import { Resume } from "./pages/Resume";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function PageContainer() {
@@ -22,7 +23,7 @@ export default function PageContainer() {
       return <Contact />;
     }
     if (activeLink === 'resume') {
-      return <Contact />;
+      return <Resume />;
     }
     // defaults to Hero for Home
     return <Hero />;

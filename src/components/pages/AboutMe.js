@@ -26,14 +26,14 @@ export const AboutMe = () => {
   };
 
   return (
-    <section className="skill" id="aboutMe">
+    <section className="experience" id="aboutMe">
         <div className="container">
             <div className="row">
                 <div className="col-12">
-                    <div className="skill-bx wow zoomIn">
+                    <div className="experience-bx wow zoomIn">
                         <h2>About Me, Donna Thompson</h2>
-                        <p>I am an experienced Information Technology (IT) professional with diverse experiences as a Software Engineer, Web developer, ETL Developer and Data Analyst. My capacity and passion for continual learning and a natural growth mindset drive business value in my projects.</p>
-                        <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
+                        <p>I am an experienced Information Technology (IT) professional with diverse experiences as a Software Engineer, Web developer, ETL Developer and Data Analyst. My capacity and passion for continual learning and a natural growth mindset drive business value.</p>
+                        <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme experience-slider">
                             <div className="item">
                                 <img src={codingIcon} alt="Image" />
                                 <h5>Software Engineer</h5>
