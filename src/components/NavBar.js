@@ -18,7 +18,7 @@ export const NavBar = ({ activeLink, onUpdateActiveLink }) => {
   }, [])
  
   return (
-    <Navbar expand="lg" className={scrolled ? "scrolled": ""}>
+    <Navbar expand="md" className={scrolled ? "scrolled": ""}>
     <Container>
       <Navbar.Brand href="#aboutMe"><img src={logo} alt="Logo" /></Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav"><span className="nabvar-toggler-icon"></span></Navbar.Toggle>
