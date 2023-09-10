@@ -498,6 +498,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .proj-imgbx:hover::before {
   height: 100%;
 }
+.proj-title {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 1.1em;
+
+}
 .proj-txtx {
   position: absolute;
   text-align: center;
@@ -512,24 +519,20 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   top: 50%;
   opacity: 1;
 }
-.proj-txtx h4 {
-  font-size: 30px;
-  font-weight: 700;
-  letter-spacing: 0.8px;
-  line-height: 1.1em;
+.proj-link {
+  margin: 10px;
 }
-.proj-txtx a {
+.proj-link a {
   color: white;
   font-size: 20px;
   font-weight: 600;
   text-align: center;
-
 }
 
 .proj-txtx span {
   font-style: italic;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 20px;
   letter-spacing: 0.8px;
 }
 .background-image-right {
