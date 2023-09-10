@@ -2,7 +2,7 @@
   "name": "DThompson-Portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/DonnaThompson7/DThompson-Portfolio",
+  "homepage": "https://donnathompson7.github.io/DThompson-Portfolio/",
   "dependencies": {
     "animate.css": "^4.1.1",
     "bootstrap": "^5.3.1",
