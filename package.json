@@ -2,9 +2,11 @@
   "name": "DThompson-Portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/DonnaThompson7/DThompson-Portfolio",
   "dependencies": {
     "animate.css": "^4.1.1",
     "bootstrap": "^5.3.1",
+    "gh-pages": "^6.0.0",
     "react": "^17.0.1",
     "react-bootstrap": "^2.8.0",
     "react-bootstrap-icons": "^1.8.2",
@@ -16,12 +18,12 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "yarn build && cp build/index.html build/404.html",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
