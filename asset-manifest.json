@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/DThompson-Portfolio/static/css/main.f10856f0.css",
+    "main.css": "/DThompson-Portfolio/static/css/main.6f69f302.css",
     "main.js": "/DThompson-Portfolio/static/js/main.d2fddeda.js",
     "static/media/Movie_app_landing_page.png": "/DThompson-Portfolio/static/media/Movie_app_landing_page.66b15ffe2be0254045ca.png",
     "static/media/insetImage3.png": "/DThompson-Portfolio/static/media/insetImage3.aeecc6ace13df2e09924.png",
@@ -23,11 +23,11 @@
     "index.html": "/DThompson-Portfolio/index.html",
     "static/media/LinkedInIcon.svg": "/DThompson-Portfolio/static/media/LinkedInIcon.f49dc1c4e0fdf9f01690dfc43590d569.svg",
     "static/media/FacebookIcon.svg": "/DThompson-Portfolio/static/media/FacebookIcon.00d039a0c3bd83f41fbac1e3a26eb82e.svg",
-    "main.f10856f0.css.map": "/DThompson-Portfolio/static/css/main.f10856f0.css.map",
+    "main.6f69f302.css.map": "/DThompson-Portfolio/static/css/main.6f69f302.css.map",
     "main.d2fddeda.js.map": "/DThompson-Portfolio/static/js/main.d2fddeda.js.map"
   },
   "entrypoints": [
-    "static/css/main.f10856f0.css",
+    "static/css/main.6f69f302.css",
     "static/js/main.d2fddeda.js"
   ]
 }
