@@ -65,7 +65,7 @@ p.danger {
 	color: red !important;
 }
 
-/************ Header/Navbar Css ************/
+/************ Header and Navbar Css ************/
 .header {
   display: flex;
   flex-direction: row;
@@ -203,11 +203,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	border-color: transparent;
 }
 
-/************ Hero Css ************/
+/************ About Me with Hero Css ************/
 .hero {
-  padding: 160px 0 80px 0;
+  margin-top: 100px;
+  padding: 10px 0 80px 0;
   background-image: url('./assets/images/background11.jpg');
-  background-position: 0px 150px;
+  background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
 
@@ -279,10 +280,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .txt-rotate > .wrap {
   border-right: 0.08em solid #666;
 }
+.txt-rotate  {
+  display: inline-block;
+}
+
 .profilePic {
   width: 150px;
   height: 200px;
-  animation: none;
   border-radius: 10px;
 }
 .experience-b {
@@ -317,36 +321,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 }
 
-/************ About Me Css ************/
-.experience {
-  position: relative;
-  background-image: url('./assets/images/background11.jpg');
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  border-radius: 64px;
-  text-align: center;
-  padding: 60px 50px;
-  margin-top: 150px;
-}
-.experience h2 {
-	font-size: 45px;
-	font-weight: 700;
-}
-.experience h5 {
-  text-decoration-line: underline;
-  text-decoration-color: #fff;
-  text-decoration-thickness: 3px;
-  font-weight: 700;
-}
-
-.experience p {
-    color: #fff;
-    font-size: 18px;
-    letter-spacing: 0.8px;
-    line-height: 1.5em;
-    margin: 14px 0 75px 0;
-}
 .experience-slider {
   width: 80%;
   margin: 0 auto;
@@ -641,7 +615,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .resumePic {
   width: 30%;
   height: auto;
-  animation: none;
   border-radius: 10px;
 }
 .resume a {

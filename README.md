@@ -3,7 +3,7 @@
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## **Description**
-  This **React Portfolio** is a single-page application using the latest technologies. The portfolio allows a developer to share experience, projects, and resume while applying for jobs or working as a freelancer, and also to share work with other developers and collaborate on projects. This application currently has no back end, and is deployed to GitHub Pages.
+  This **React Portfolio** is a single-page application using the latest technologies. The portfolio allows a developer to share experience, projects, and resume while applying for jobs or working as a freelancer, and also to share work with other developers and collaborate on projects. This application is currently deployed to GitHub Pages. Back-end functionality will be added in future releases. 
 
   ## **Table of Contents:**
   * [Technology Used](#technology-used)
@@ -14,14 +14,14 @@
   * [Credits](#credits)
   * [Contribute](#contribute)
   * [License](#license)
-  * [Repository](#repository)
+  * [GitHub Repository](#github-repository)
   * [Questions](#questions)
 
   ## **Technology Used**
-  This single-page application....
+  This React single-page application uses many React components and packages, animation, svg files, bootstrap, css, responsive sizing and more. This application is currently deployed to GitHub Pages. Back-end functionality will be added in future releases.
 
   ## **Installation**
-  To download the source code for this app, clone the [Portfolio GitHub repo](https://github.com/DonnaThompson7/DThompson-Portfolio), then to start the app, on the command line, run `npm install`. This will create the node_modules directory in your current directory (if one doesnt exist yet) and will download the package to that directory. You can check to see if you already have node.js installed by running either the npm -v or the npm version command. Note:If there is no package.jsonfile in the local directory, the latest version of the package is installed.
+  To download the source code for this app, clone the [Portfolio GitHub repo](https://github.com/DonnaThompson7/DThompson-Portfolio), then run `npm install`. This will create the node_modules directory in your current directory (if one doesnt exist yet) and will download the package to that directory. You can check to see if you already have node.js installed by running either the npm -v or the npm version command. Note:If there is no package.jsonfile in the local directory, the latest version of the package is installed. To start the app, run `npm start`.
 
   ## **Screenshot of app**
  ![Screenshot of Portfolio app](./src/assets/images/Portfolio_screenshot.png)
@@ -86,8 +86,8 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
   ## **License**
 Licensed under [The MIT License](https://opensource.org/licenses/MIT).
 
-  ## **Repository** 
-  [Repo: github.com/DonnaThompson7/DThompson-Portfolio](https://github.com/DonnaThompson7/DThompson-Portfolio)
+  ## **GitHub Repository** 
+  [github.com/DonnaThompson7/DThompson-Portfolio](https://github.com/DonnaThompson7/DThompson-Portfolio)
 
   ## **Questions**
   Please visit my GitHub profile at https://github.com/DonnaThompson7 <br /> Contact me at dlthompson7@icloud.com to report issues, contribute, or if you have additional questions.
