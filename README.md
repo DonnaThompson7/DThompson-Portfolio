@@ -3,13 +3,13 @@
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## **Description**
-  This **React Portfolio** is a single-page application using the latest technologies. The portfolio allows a developer to share experience, projects, and resume while applying for jobs or working as a freelancer, and also to share work with other developers and collaborate on projects. The application is deployed to GitHub Pages.
+  This **React Portfolio** is a single-page application using the latest technologies. The portfolio allows a developer to share experience, projects, and resume while applying for jobs or working as a freelancer, and also to share work with other developers and collaborate on projects. This application currently has no back end, and is deployed to GitHub Pages.
 
   ## **Table of Contents:**
   * [Technology Used](#technology-used)
   * [Installation](#installation)
   * [Screenshot of app](#screenshot-of-app) 
-  * [Link to deployed app](#link-to-deployed-app)
+  * [Link to deployed app via GitHub Pages](#link-to-deployed-app-via-github-pages)
   * [Usage](#usage)
   * [Credits](#credits)
   * [Contribute](#contribute)
@@ -21,14 +21,14 @@
   This single-page application....
 
   ## **Installation**
-  To download the source code for this app, clone the [Text Editor GitHub repo](https://github.com/DonnaThompson7/DThompson-Portfolio), then to start the app, on the command line, run `npm install`. This will create the node_modules directory in your current directory (if one doesnt exist yet) and will download the package to that directory. You can check to see if you already have node.js installed by running either the npm -v or the npm version command. Note:If there is no package.jsonfile in the local directory, the latest version of the package is installed. Then run `npm start`. Also run 'node server.js' to start the server, so that the contact form can send email.
+  To download the source code for this app, clone the [Portfolio GitHub repo](https://github.com/DonnaThompson7/DThompson-Portfolio), then to start the app, on the command line, run `npm install`. This will create the node_modules directory in your current directory (if one doesnt exist yet) and will download the package to that directory. You can check to see if you already have node.js installed by running either the npm -v or the npm version command. Note:If there is no package.jsonfile in the local directory, the latest version of the package is installed.
 
   ## **Screenshot of app**
- ![Screenshot of Text Editor app](./src/assets/images/Portfolio_screenshot.jpeg)
+ ![Screenshot of Portfolio app](./src/assets/images/Portfolio_screenshot.png)
   
 
-  ## **Link to deployed app**
- [Link to Portfolio deployed via gh-pages](https://murmuring-temple-52779-b0086875758f.herokuapp.com/)
+  ## **Link to deployed app via GitHub Pages**
+ [Link to Portfolio](https://donnathompson7.github.io/DThompson-Portfolio/)
  
   ## **Usage**
 
