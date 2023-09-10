@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import { NavBar } from "./NavBar";
 import LinkedInIcon from '../assets/images/LinkedInIcon.svg';
 import FacebookIcon from '../assets/images/FacebookIcon.svg';

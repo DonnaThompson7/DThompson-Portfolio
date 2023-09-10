@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Header } from "./Header";
-import { Hero } from "./pages/Hero";
 import { AboutMe } from "./pages/AboutMe";
 import { Portfolio } from "./pages/Portfolio";
 import { Contact } from "./pages/Contact";
@@ -8,14 +7,11 @@ import { Resume } from "./pages/Resume";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function PageContainer() {
-  const [activeLink, setActiveLink] = useState('home');
+  const [activeLink, setActiveLink] = useState('aboutMe');
 
   // Check to see what value of `activeLink` is, then return corresponding component to render.
   const renderPage = () => {
     console.log(activeLink);
-    if (activeLink === 'aboutMe') {
-      return <AboutMe />;
-    }
     if (activeLink === 'portfolio') {
       return <Portfolio />;
     }
@@ -25,8 +21,8 @@ export default function PageContainer() {
     if (activeLink === 'resume') {
       return <Resume />;
     }
-    // defaults to Hero for Home
-    return <Hero />;
+    // defaults to About Me
+    return <AboutMe />;
   };
 
   const onUpdateActiveLink = (page) => setActiveLink(page);

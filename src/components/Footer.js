@@ -18,7 +18,6 @@ export const Footer = () => {
               <h6><a href="mailto: dlthompson7@icloud.com">dlthompson7@icloud.com</a></h6>
             </div>
             <div className="footer-social-icon">
-                {/* <h4>Let's Connect:</h4> */}
                 <a href="https://github.com/DonnaThompson7"><img src={GitHubIcon} alt="Donna Thompson GitHub" /></a>
                 <a href="https://www.linkedin.com/in/donnathompson22/"><img src={LinkedInIcon} alt="Donna Thompson LinkedIn" /></a>
                 <a href="https://www.facebook.com/profile.php?id=100023959664534&mibextid=LQQJ4d"><img src={FacebookIcon} alt="Donna Thompson FaceBook" /></a>

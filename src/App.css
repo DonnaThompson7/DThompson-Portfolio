@@ -74,7 +74,6 @@ p.danger {
   z-index: 9999;
   transition:  0.32s ease-in-out;
   background-color: #121212;
-
 }
 nav.navbar {
   padding: 18px 0;
@@ -231,12 +230,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Hero Css ************/
 .hero {
-  margin-top: 0;
-  padding: 160px 0 100px 0;
-  background-image: url('./assets/images/background1b.jpg');
+  padding: 160px 0 80px 0;
+  background-image: url('./assets/images/background11.jpg');
   background-position: 0px 150px;
   background-size: cover;
   background-repeat: no-repeat;
+
 }
 .hero .welcome {
   font-weight: 700;
@@ -259,12 +258,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-bottom: 20px;
   display: block;
 }
-.hero p {
+#about-text p {
   color: #fff;
   font-size: 22px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
   width: 96%;
+  padding: 20px 80px;
 }
 .hero button {
   color: #fff;
@@ -310,6 +310,37 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   animation: none;
   border-radius: 10px;
 }
+.experience-b {
+	padding-top: 105px;
+}
+
+.experience-b h2 {
+	font-size: 45px;
+	font-weight: 700;
+}
+.experience-b h5 {
+  text-decoration-line: underline;
+  text-decoration-color: #fff;
+  text-decoration-thickness: 3px;
+  font-weight: 700;
+}
+
+.experience-b p {
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    margin: 14px 0 45px 0;
+}
+.about-container {
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+  padding-left: 40px;
+  padding-top: 30px;
+  max-width: 100%;
+
+}
 
 /************ About Me Css ************/
 .experience {
@@ -344,7 +375,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .experience-slider {
   width: 80%;
   margin: 0 auto;
-  position: relative;
+  position: unset;
+      .react-multiple-carousel__arrow {
+          position:absolute;
+      }
+      .react-multiple-carousel__arrow--left {
+          left: calc(1% + 1px)
+      }
+      .react-multiple-carousel__arrow--right {
+          right: calc(1% + 1px)
+      }
 }
 .experience-slider .item {
   margin: 0;
@@ -361,14 +401,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 50%;
   margin: 0 auto 15px auto;
 }
-
-/* .background-image-left {
-  top: 28%;
-  position: absolute;
-  bottom: 0;
-  width: 80%;
-  z-index: -4;
-} */
 
 /************ Portfolio Css ************/
 .project {
@@ -677,10 +709,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: flex;
   flex-direction: row;
   padding: 40px 0 50px 100px;
-  background-image: url('./assets/images/background6.jpg');
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: #121212;
   align-items: center;
   justify-content: space-evenly;
 }
