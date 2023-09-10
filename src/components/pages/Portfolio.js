@@ -1,5 +1,5 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
-import { ProjectDetails } from "./ProjectDetails";
+import { Project } from "./Project";
 import flavorImpersonatorImg from "../../assets/images/Flavor_Impersonator_multi_page.png";
 import movieAppImg from "../../assets/images/Movie_app_landing_page.png";
 import techBlogImg from "../../assets/images/tech_blog_multi_page.png";
@@ -84,7 +84,7 @@ export const Portfolio = () => {
                         {
                           projects.map((project, index) => {
                             return (
-                              <ProjectDetails
+                              <Project
                                 key={index}
                                 {...project}
                                 />

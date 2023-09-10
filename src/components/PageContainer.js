@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
 import { Header } from "./Header";
-import { Footer } from "./Footer";
-
 import { AboutMe } from "./pages/AboutMe";
 import { Portfolio } from "./pages/Portfolio";
 import { Contact } from "./pages/Contact";
@@ -35,8 +33,6 @@ export default function PageContainer() {
       <Header activeLink={activeLink} onUpdateActiveLink={onUpdateActiveLink} />
       {/* Call renderPage method which will return a component  */}
       {renderPage()}
-      <Footer />
-
     </div>
   );
 }

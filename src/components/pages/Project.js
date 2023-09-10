@@ -1,6 +1,6 @@
 import { Col } from "react-bootstrap";
 
-export const ProjectDetails = ({ title, description, imgUrl, deployedUrl, repoUrl }) => {
+export const Project = ({ title, description, imgUrl, deployedUrl, repoUrl }) => {
   return (
     <Col xl={4} md={6} sm={12}>
       <h4 className="proj-title">{title}</h4>
