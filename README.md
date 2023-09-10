@@ -76,6 +76,8 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
   2-hour tutorial by judygab: https://www.youtube.com/watch?v=hYv6BM2fWd8
 
+  Tutorial by Chris Benjamin: Responsive Skill Icons for your Portfolio: https://blog.chrisbenjamin.dev/responsive-skill-icons-for-your-portfolio-tutorial#Permalinkreact%20Components
+  
   Online documentation for many React components and packages, animation, svg files, bootstrap, css, responsive sizing and more.
 
   ## **Contribute**

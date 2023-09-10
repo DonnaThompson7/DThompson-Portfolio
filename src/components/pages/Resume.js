@@ -4,9 +4,9 @@ import profilePic from "../../assets/images/Donna_profilePic - resized.jpg";
 export const Resume = () => {
   return (
     <section className="resume" id="resume">
-          <div class="resume-welcome-box">
+          <div className="resume-welcome-box">
                 <h1 className="resume-welcome">Hi! I'm Donna Thompson</h1>
-                <img class="resumePic" src={profilePic} alt="profile picture"  />
+                <img className="resumePic" src={profilePic} alt="profile picture"  />
                 <div>
                     <a  className="resume-welcome" href="/Donna_Thompson_Resume.pdf" target='_blank' rel="noreferrer">Click Here to View my Resume</a>
                 </div>

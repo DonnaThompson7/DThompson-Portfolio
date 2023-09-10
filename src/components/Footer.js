@@ -7,12 +7,8 @@ import GitHubIcon from '../assets/images/github3.png';
 
 export const Footer = () => {
   return (
-    <footer className="footer">
+    <div className="footer">
             <img src={logo} alt="Logo" />
-            <div className='footer-contact-info'>
-              <h5 >Donna Thompson</h5>
-              <h6>Full Stack Developer</h6>
-            </div>
             <div className='footer-contact-info'>
               <h5>Let's Connect:</h5>
               <h6><a href="mailto: dlthompson7@icloud.com">dlthompson7@icloud.com</a></h6>
@@ -24,6 +20,7 @@ export const Footer = () => {
                 <a href="https://instagram.com/dlthompson7?igshid=OGQ5ZDc2ODk2ZA=="><img src={InstagramIcon} alt="Donna Thompson Instagram" /></a>
             </div>
             <p>Copyright 2023. All Rights Reserved</p>
-    </footer>
+            <img src={logo} alt="Logo" />
+    </div>
   )
 }
