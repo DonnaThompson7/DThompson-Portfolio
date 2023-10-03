@@ -205,12 +205,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ About Me with Hero Css ************/
 .hero {
-  margin-top: 100px;
-  padding: 10px 0 80px 0;
   background-image: url('./assets/images/background11.jpg');
-  background-position: top;
+  background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
+  margin-top: 100px;
+  padding: 40px 0 80px 0;
 
 }
 .hero .welcome {

@@ -1,5 +1,6 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { Project } from "./Project";
+import MixMuseLandingPageImg from "../../assets/images/MixMuseLandingPage.jpeg";
 import flavorImpersonatorImg from "../../assets/images/Flavor_Impersonator_multi_page.png";
 import movieAppImg from "../../assets/images/Movie_app_landing_page.png";
 import techBlogImg from "../../assets/images/tech_blog_multi_page.png";
@@ -13,6 +14,13 @@ import TrackVisibility from 'react-on-screen';
 export const Portfolio = () => {
 
   const projects = [
+    {
+      title: "MixMuse",
+      description: "MixMuse is a scalable, user-focused MERN full stack app that offers a wide range of bartending supplies such as liquor, equipment and mixers. The app leverages Redux's capabilities to handle global state, ensuring a seamless shopping experience.",
+      imgUrl: MixMuseLandingPageImg,
+      deployedUrl: "https://mixmuse-b1c9f2067218.herokuapp.com/",
+      repoUrl: "https://github.com/c0nstantin1990/MixMuse",
+    },
     {
       title: "Flavor Impersonator",
       description: "Flavor Impersonator is a user-friendly platform where food enthusiasts can share and discover their favorite recipes from popular restaurants or famous dishes. Leverages the power of Node.js, Express.js, Handlebars.js, MySQL,Sequelize, Bootstrap and Animate.css, to deliver a secure and efficient web application.",
@@ -47,13 +55,6 @@ export const Portfolio = () => {
       imgUrl: workDaySchedulerImg,
       deployedUrl: "https://donnathompson7.github.io/Work-Day-Scheduler",
       repoUrl: "https://github.com/DonnaThompson7/Work-Day-Scheduler",
-    },
-    {
-      title: "Code Quiz",
-      description: "Code Quiz app tests the user's knowledge of Javascript basics. The app is timed and tracks high scores. Written in javascript, html and css",
-      imgUrl: codeQuizImg,
-      deployedUrl: "https://donnathompson7.github.io/Code-quiz",
-      repoUrl: "https://github.com/DonnaThompson7/Code-quiz",
     },
   ];
 
